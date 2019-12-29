@@ -62,3 +62,15 @@ Example:
 dest='playlistend', metavar='NUMBER', default=None, type=int,
 help='Playlist video to end at (default is last)'
 ```
+
+```python
+ydl_opts = {
+    'format': 'mp3/worstvideo', # by selecting worstvideo the file size is reduced
+    'outtmpl': file_path,
+    'progess_hooks': [my_hook],
+    'ignoreerrors': True,
+    'noplaylist': False, # set to True for single video
+    'playliststart': 1,  # defines which video to start from in a playlist
+    'playlistend': 10,   # defines which video to end at in a playlist
+}
+```
