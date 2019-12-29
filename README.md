@@ -23,15 +23,21 @@ pip install --upgrade youtube-dl
     
 2. Set the `ydl_opts` ( _youtube download options_ )
 
-    > `'noplaylist'`: True
+    ```python 
+    'noplaylist': True
+    ```
 
     Set this to `False` when the `youtube_url` is using a playlist
 
-    > `'playliststart'`: 1
+    ```python 
+    'playliststart': 1
+    ```
 
     Defines which video to **START** from in a playlist. _Commented out by default._
 
-    > `'playlistend'`: 10
+    ```python 
+    'playlistend': 10
+    ```
 
     Defines which video to **END** at in a playlist. _Commented out by default._
 
