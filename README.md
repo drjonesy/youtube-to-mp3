@@ -1,3 +1,4 @@
+![YouTube to Mp3](banner.png)
 # YouTube to Mp3
 
 A simple application that downloads either a single song or playlist form YouTube to MP3 audio. Uses the [youtube-dl](https://github.com/ytdl-org/youtube-dl) library with **pip** install. 
