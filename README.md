@@ -9,6 +9,7 @@ _This application was created using Python 3.7 with a conda virtual environment_
 
 ```
 pip install --upgrade youtube-dl
+pip install moviepy
 ```
 
 ## How to use
